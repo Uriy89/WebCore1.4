@@ -111,13 +111,13 @@ html {
     height: 32px;
     padding-left: 12px;
     position: relative;
-    left: -44px;
+    left: -24px;
     top: 11px;
-    overflow: hidden;
+    visibility: hidden;
 }
 
 .mobile-menu__main .item:hover:before {
-    left: -24px;
+    visibility: inherit;
 }
 
 
