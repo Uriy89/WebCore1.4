@@ -31,6 +31,7 @@ button {
 a, li, ol, ul {
     text-decoration: none;
     list-style: none;
+    color: #1B1C21;
 }
 
 
@@ -72,13 +73,13 @@ html {
 }
  
 
-.btn {
+button {
     width: 40px;
     height: 40px;
     cursor: pointer;
 }
 
-.btn:hover {
+button:hover {
     opacity: 0.8;
 }
 
@@ -103,7 +104,9 @@ html {
 
 .menu__items .item {
     font-weight: bolder;
+    
 }
+
 
 .mobile-menu__main .item:before {
     content: url("../images/highlight.svg");
@@ -131,7 +134,7 @@ html {
     margin-top: auto;
 }
 
-.mobile-menu__footer .btn {
+.mobile-menu__footer .connect__btn {
    margin-right: 16px;
 }
 
@@ -139,15 +142,15 @@ html {
     display: block;
 }
 
-.footer__phone {
+.connect__phone {
     background: url("../images/phone.svg") no-repeat;
 }
 
-.footer__chat {
+.connect__chat {
     background: url("../images/chat.svg") no-repeat;
 }
 
-.footer__profile {
+.connect__profile {
     background: url("../images/profile.svg") no-repeat;
 }
 
@@ -155,20 +158,24 @@ html {
     display: flex;   
 }
 
-.footer__mail {
+.contacts__mail {
     font-weight: bolder;
+    display: block;
 }
 
-.footer__phone-number {
+.contacts__phone-number {
     font-size: 24px;
     font-weight: bold;
     padding-bottom: 20px;
+    display: block;
 }
 
+.leng-items {
+    margin-left: -7px;
+}
 
 .leng-items__item {
     font-weight: bolder;
-    padding-right: 7px;
 }
 
 .leng-items__item:hover {
@@ -176,6 +183,3 @@ html {
     cursor: pointer;
 }
 
-.leng-items__item:last-child {
-    padding-right: 0;
-}
